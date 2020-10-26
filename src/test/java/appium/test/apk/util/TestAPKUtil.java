@@ -18,8 +18,11 @@ public class TestAPKUtil {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("noReset", "true");
 		capabilities.setCapability("fullReset", "false");
-		capabilities.setCapability("deviceName", "Android Emulator");
-		capabilities.setCapability("platformVersion", "7.0");
+		
+		capabilities.setCapability("deviceName", "245a01cd04017ece");
+		capabilities.setCapability("platformVersion", "10");
+		//capabilities.setCapability("deviceName", "Android Emulator");
+		//capabilities.setCapability("platformVersion", "7.0");
 		capabilities.setCapability("platformName", "Android");
 		
 		return capabilities;
